@@ -1,11 +1,12 @@
-package com.erawhctim.gradletestkitsample
+package com.erawhctim.gradle.sample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.erawhctim.gradle.R.layout
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(layout.activity_main)
     }
 }

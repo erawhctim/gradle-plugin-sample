@@ -1,3 +1,4 @@
+include(":plugin")
 include(":sample")
 
 rootProject.name = "testkit-sample"
